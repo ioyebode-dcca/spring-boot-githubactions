@@ -16,7 +16,7 @@ jobs:
       - name: Setup JDK 17
         uses: actions/setup-java@v2
         with:
-          distribution: 'amazon-corretto:17-alpine'
+          distribution: 'amazoncorretto:17-alpine'
           java-version: '17-alpine'
 
       - name: Unit Tests
